@@ -1,4 +1,8 @@
-
+.cart {
+  position: sticky;
+  top: 0;
+  padding: 30px 20px;
+}
 .clear-cart,
 .review-order {
   font-style: normal;
@@ -18,7 +22,8 @@
   align-items: center;
   justify-content: center;
 }
-.clear-text,.review-text {
+.clear-text,
+.review-text {
   margin-right: 10px;
 }
 .review-btn {
